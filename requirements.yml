@@ -1,0 +1,48 @@
+---
+collections:
+  # Ansible official
+  - name: ansible.netcommon
+  - name: ansible.posix
+  - name: ansible.utils
+  - name: ansible.windows
+
+  # AWX / Automation Controller
+  - name: awx.awx
+
+  # Cisco
+  - name: cisco.ios
+
+  # Community
+  - name: community.crypto
+  - name: community.docker
+  - name: community.general
+  - name: community.postgresql
+
+  # Dell
+  - name: dellemc.os10
+  - name: dellemc.os9
+
+  # FreeIPA
+  - name: freeipa.ansible_freeipa
+
+  # Google Cloud
+  - name: google.cloud
+
+  # Kubernetes / OpenShift
+  - name: kubernetes.core
+
+  # Apache CloudStack
+  - name: ngine_io.cloudstack
+
+  # Nutanix
+  - name: nutanix.ncp
+
+  # VMware
+  - name: vmware.vmware_rest
+
+roles:
+  # DISA STIG hardening — ansible-lockdown
+  - name: ansible-lockdown.ubuntu22_stig
+  - name: ansible-lockdown.rhel8_stig
+  - name: ansible-lockdown.rhel9_stig
+  - name: ansible-lockdown.ubuntu20_stig
