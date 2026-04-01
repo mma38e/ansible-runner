@@ -1,0 +1,47 @@
+# Ansible
+ansible-core
+ansible
+
+# AWS
+boto3
+botocore
+
+# Apache CloudStack (ngine_io.cloudstack)
+cs
+
+# Docker SDK (community.docker)
+docker
+
+# Google Cloud (google.cloud)
+google-auth
+
+# JSON queries (used broadly by many collections)
+jmespath
+
+# Kubernetes / OpenShift (kubernetes.core)
+kubernetes
+openshift
+
+# Network utilities
+netaddr
+
+# NetBox (netbox.netbox)
+pynetbox
+
+# SSH
+paramiko
+
+# Password hashing (community.general)
+passlib
+
+# PostgreSQL (community.postgresql)
+psycopg2-binary
+
+# HTTP
+requests
+
+# VMware (vmware.vmware_rest, community.vmware)
+PyVmomi
+
+# Windows WinRM (ansible.windows)
+pywinrm
