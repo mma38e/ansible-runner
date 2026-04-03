@@ -33,6 +33,7 @@ RUN python3 -m pip install --no-cache-dir --upgrade pip \
 
 # Install Ansible Galaxy collections
 COPY requirements.yml /root/requirements.yml
+COPY ansible.cfg /etc/ansible/ansible.cfg
 RUN ansible-galaxy collection install -r /root/requirements.yml \
     && ansible-galaxy role install --ignore-errors -r /root/requirements.yml
 
