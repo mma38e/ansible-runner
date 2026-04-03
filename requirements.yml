@@ -12,7 +12,8 @@ collections:
   # Cisco
   - name: cisco.ios
 
-  # Community
+  # Community (explicitly to override pip-installed versions)
+  - name: community.aws
   - name: community.crypto
   - name: community.docker
   - name: community.general
