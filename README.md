@@ -66,6 +66,14 @@ Configurable via environment variables at the top of the script:
 
 ---
 
+## Configuration
+
+The repo includes an [`ansible.cfg`](ansible.cfg) with sensible defaults for
+containerized/CI environments — host key checking disabled, YAML output, etc.
+Customize as needed for your environment.
+
+---
+
 ## What's included
 
 ### System tools
